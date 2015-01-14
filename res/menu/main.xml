@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alminendi.eareader.MainActivity" >
+
+    
+    <item android:id="@+id/dodaj_stranicu"
+        android:title="@string/dodavanje_stranice"/>
+    
+
+</menu>

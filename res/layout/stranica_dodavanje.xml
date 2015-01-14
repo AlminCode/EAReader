@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label_upis_naslova_stranice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naslov" />
+
+    <EditText
+        android:id="@+id/upis_naslov_stranice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/label_upis_url_stranice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Url stranice" />
+
+    <EditText
+        android:id="@+id/upis_url_stranice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+        <Button
+            android:id="@+id/dodaj_stranicu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodaj"
+            android:layout_gravity="center" />
+
+</LinearLayout>

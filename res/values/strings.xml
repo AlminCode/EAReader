@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EAReader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dodavanje_stranice">Dodaj stranicu</string>
+    <string name="label_NaslovStranice">Upiši url stranice</string>
+    <string name="dodaj_Button">Dodaj</string>
+    <string name="label_url_stranice">Url stranice</string>
+    <string name="label_naslov_stranice">Url stranice</string>
+
+</resources>
