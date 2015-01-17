@@ -11,6 +11,9 @@ import android.widget.TextView;
 public class RssAdapter extends BaseAdapter {
 	private final List<RssItem> items;
 	private final Context context;
+	
+	private int[] colors = new int[] {  0x30ffffff, 0x30808080  };
+     
 
 	public RssAdapter(Context context, List<RssItem> items) {
 		this.items = items;
@@ -39,6 +42,9 @@ public class RssAdapter extends BaseAdapter {
 			convertView = View.inflate(context, R.layout.rss_objekat, null);
 			holder = new ViewHolder();
 			holder.itemTitle = (TextView) convertView.findViewById(R.id.naslovObjekta);
+			//color
+			 int colorPos = position % colors.length;
+		      convertView.setBackgroundColor(colors[colorPos]);
 			convertView.setTag(holder);
 		} else {
 			holder = (ViewHolder) convertView.getTag();
